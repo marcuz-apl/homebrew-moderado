@@ -1,13 +1,13 @@
 class Moderado < Formula
   desc "Free-first AI coding agent"
   homepage "https://github.com/marcuz-apl/moderado"
-  version "0.3.9"
+  version "0.3.10"
   if OS.mac?
-    url "https://github.com/marcuz-apl/moderado/releases/download/v0.3.9/moderado-macos-arm64"
-    sha256 "b5d7362d7e4ea082ae1b0ae6434cb35b56554de8b6d3687d7c64f42dba7b9d36"
+    url "https://github.com/marcuz-apl/moderado/releases/download/v0.3.10/moderado-macos-arm64"
+    sha256 "d6fbdcb748eb01e40e3d93ab96dd282ba73bf2a748d7088c04a5e13171f87054"
   else
-    url "https://github.com/marcuz-apl/moderado/releases/download/v0.3.9/moderado-linux-x64"
-    sha256 "ee0d1a5bdaa5bd8ee4508e4728776bcd0150598e7c89016eea5dc33c656c575d"
+    url "https://github.com/marcuz-apl/moderado/releases/download/v0.3.10/moderado-linux-x64"
+    sha256 "b017f640f21939e766d0386c3f0e2bde55237b441aecbc28ebe0d606d40d7689"
   end
   def install
     if OS.mac?
